@@ -7,7 +7,7 @@ export default function NavBar(prop) {
   return (
     <nav className={`navbar navbar-expand-lg navbar-${prop.modeType} bg-${prop.modeType}`}>
         <div className="container-fluid">
-          <a class="navbar-brand" href="/">
+          <a className="navbar-brand" href="/">
             <img src="/favicon-96x96.png" alt="" style ={{width: 30, height:30}}/>
           </a>
           <a className="navbar-brand" href="/">{prop.title}</a>
